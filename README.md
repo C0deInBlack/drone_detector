@@ -6,7 +6,7 @@ Detect in images
 ![img](https://github.com/C0deInBlack/drone_detector/blob/main/assets/img.png)
 
 Detect in videos
-[![video](https://github.com/C0deInBlack/drone_detector/blob/main/assets/thumbnail.png)](https://github.com/C0deInBlack/drone_detector/blob/main/assets/video.mp4)
+![](https://github.com/C0deInBlack/drone_detector/blob/main/assets/video.gif)
 
 The cascade XML was created with [Cascade Trainer GUI](https://amin-ahmadi.com/cascade-trainer-gui/).
 
