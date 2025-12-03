@@ -4,7 +4,7 @@ PyQt application that detects drones using a custon Haar Cascade xml training fi
 
 ![img](https://github.com/C0deInBlack/drone_detector/blob/main/assets/img.png)
 
-The cascade XML was created with ![Cascade Trainer GUI](https://amin-ahmadi.com/cascade-trainer-gui/).
+The cascade XML was created with [Cascade Trainer GUI](https://amin-ahmadi.com/cascade-trainer-gui/).
 
 The script ![image_crawler.py](https://github.com/C0deInBlack/drone_detector/blob/main/image_crawler.py) download samples from internet using icrawler, it automatically organize the samples by category, positives and negatives.
 
