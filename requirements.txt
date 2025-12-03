@@ -1,0 +1,5 @@
+icrawler
+opencv-python
+pyqt5
+opencv-contrib-python
+pwntools

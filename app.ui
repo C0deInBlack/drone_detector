@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>capture_checkbox</class>
+ <widget class="QMainWindow" name="capture_checkbox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>967</width>
+    <height>759</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(19, 19, 19);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="5">
+     <widget class="QLabel" name="tune2_label">
+      <property name="text">
+       <string>mN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="image_button">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	border-color: rgb(85, 85, 127);
+	border-width:1px;
+	border-style: inset;
+}
+QPushButton::pressed { 
+	border-color: rgb(156, 156, 156);
+}</string>
+      </property>
+      <property name="text">
+       <string>IMAGE</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QSlider" name="minimum_neighbors">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+      <property name="value">
+       <number>17</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="video_button">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	border-color: rgb(85, 85, 127);
+	border-width:1px;
+	border-style: inset;
+}
+QPushButton::pressed { 
+	border-color: rgb(156, 156, 156);
+}</string>
+      </property>
+      <property name="text">
+       <string>VIDEO</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QPushButton" name="run_button">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton { 
+	border-color: rgb(85, 255, 127);
+	color: rgb(85, 255, 127);
+	border-width:1px;
+	border-style: inset;
+}
+QPushButton::pressed {
+	background-color: rgb(85, 255, 127);
+	color: rgb(0, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>RUN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLabel" name="mN_value">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QSlider" name="scale_factor">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="minimum">
+       <number>11</number>
+      </property>
+      <property name="maximum">
+       <number>1000</number>
+      </property>
+      <property name="value">
+       <number>60</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <widget class="QLabel" name="image_label">
+      <property name="maximumSize">
+       <size>
+        <width>1800</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgb(85, 85, 127);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLabel" name="sF_value">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="4">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(19, 19, 19);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QPushButton" name="cancel_button">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <bold>false</bold>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	border-color: rgb(255, 85, 127);
+	color: rgb(255, 85, 127);
+	border-width:1px;
+	border-style: inset;
+}
+QPushButton::pressed {
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 85, 127);
+}</string>
+      </property>
+      <property name="text">
+       <string>CLEAR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="tune1_label">
+      <property name="text">
+       <string>sF</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="cascade_button">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	border-color: rgb(85, 85, 127);
+	border-width:1px;
+	border-style: inset;
+}
+QPushButton::pressed { 
+	border-color: rgb(156, 156, 156);
+}</string>
+      </property>
+      <property name="text">
+       <string>CASCADE FILE</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QCheckBox" name="capture_checkbox_2">
+      <property name="styleSheet">
+       <string notr="true">QCheckBox::indicator {
+	background-color: rgb(85, 85, 127);
+}
+QCheckBox::indicator:checked {
+	background-color: rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>CAPTURE</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>967</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>false</bool>
+  </property>
+ </designerdata>
+</ui>
