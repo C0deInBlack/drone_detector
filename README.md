@@ -1,6 +1,6 @@
 # drone_detector
 
-PyQt application that detects drones using a custon Haar Cascade xml training file and OpenCV.
+PyQt application that detects drones using a custon Haar Cascade XML training file and OpenCV.
 
 Detect in images
 ![img](https://github.com/C0deInBlack/drone_detector/blob/main/assets/img.png)
