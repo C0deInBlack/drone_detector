@@ -2,10 +2,10 @@
 
 PyQt application that detects drones using a custon Haar Cascade XML training file and OpenCV.
 
-Detect in images
+Detect in images \
 ![img](https://github.com/C0deInBlack/drone_detector/blob/main/assets/img.png)
 
-Detect in videos
+Detect in videos \
 ![](https://github.com/C0deInBlack/drone_detector/blob/main/assets/video.gif)
 
 The cascade XML was created with [Cascade Trainer GUI](https://amin-ahmadi.com/cascade-trainer-gui/).
