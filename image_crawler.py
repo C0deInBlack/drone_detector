@@ -1,6 +1,6 @@
 #!/usr/bin/python3 
 
-import sys; sys.path.append("./LIBS/lib/python3.13/site-packages/")
+import sys; #sys.path.append("./LIBS/lib/python3.13/site-packages/")
 import os, shutil
 from icrawler.builtin import BingImageCrawler, GoogleImageCrawler, BaiduImageCrawler
 import cv2 as cv
