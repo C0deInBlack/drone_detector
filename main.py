@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import sys; sys.path.append("./LIBS/lib/python3.13/site-packages/")
+import sys; #sys.path.append("./LIBS/lib/python3.13/site-packages/")
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QMessageBox
 from PyQt5.QtGui import QPixmap, QImage
 from PyQt5 import uic
