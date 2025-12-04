@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import sys, os, argparse
-sys.path.append("./LIBS/lib/python3.13/site-packages/")
+#sys.path.append("./LIBS/lib/python3.13/site-packages/")
 import cv2 as cv 
 from matplotlib import pyplot as plt 
 from termcolor import colored 
